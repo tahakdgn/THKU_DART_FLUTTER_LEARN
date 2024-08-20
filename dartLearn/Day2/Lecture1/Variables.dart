@@ -3,8 +3,6 @@
 
 void main() {
   // GİRİŞ
-  // Dart, Google tarafından geliştirilen bir programlama dilidir.
-  // Web ve mobil uygulamalar geliştirmek için kullanılır.
   // Bu derste Dart dilindeki temel veri türlerini öğreneceğiz.
 
   // 1. TEMEL VERİ TÜRÜ (int, double, string, bool, num, var)
@@ -22,14 +20,14 @@ void main() {
   // Örneğin, bir kişinin öğrenci olup olmadığını temsil etmek için kullanabiliriz.
 
   // num - .
-  // Örneğin, bir kişinin vücut sıcaklığını temsil etmek için kullanabiliriz (36.6 36).
+  // Örneğin, bir kişinin vücut sıcaklığını temsil etmek için kullanabiliriz (36.6, 36).
 
   // var - Değişkenin türünü belirtmeden otomatik olarak türü belirlenir.
-  // 'var' kullanırken dikkat etmeliyiz, çünkü türü değişken atandıktan sonra değiştirilemez.
+  // 'var' kullanırken dikkat etmeliyiz, çünkü türü değişken atandıktan sonra değiştirilemez. (10 , 10.2)
 
   // 2. DİNAMİK VERİ TÜRÜ (dynamic)
   // dynamic - Bu tür, herhangi bir veri türünü tutabilir ve türü çalışma zamanında değişebilir.
-  // Örneğin, bir değişkenin başlangıçta bir metin tutmasını ve daha sonra bir sayı tutmasını istiyorsak, 'dynamic' türünü kullanabiliriz.
+  // Örneğin, bir değişkenin başlangıçta bir metin tutmasını ve daha sonra bir sayı tutmasını istiyorsak, 'dynamic' türünü kullanabiliriz.(10, "Hello")
 
   // variable değişkeni başlangıçta bir metin tutuyor.
 
@@ -38,7 +36,6 @@ void main() {
   // Şimdi variable bir tam sayı tutuyor.
 
   // 3. DEĞİŞKEN TANIMLAMA KURALLARI
-  // Değişkenler, program boyunca kullanılacak verileri saklamak için kullanılır.
   // Değişkenler harf veya alt çizgi (_) ile başlamalıdır.
   // Değişken isimleri sayılarla başlayamaz, ama sonrasında sayılar içerebilir (örneğin: age1).
   // Dart dilinde büyük/küçük harf duyarlılığı vardır; yani 'age' ve 'Age' farklı değişkenlerdir.
@@ -46,8 +43,6 @@ void main() {
 
   // Tırnak ve Kesme İşaretlerinin Kullanımı
   // String türünde veri tanımlarken hem tek tırnak (' ') hem de çift tırnak (" ") kullanılabilir.
-
-  // Yukarıdaki iki tanımlama da geçerli ve eşdeğerdir.
 
   // Tek tırnak içinde çift tırnak ve tam tersi kullanılabilir:
 
@@ -73,8 +68,7 @@ void main() {
   // Öğrencilere aşağıdaki gibi sorular sorarak bilgilerini pekiştirebiliriz:
   // 1. var ile dynamic arasındaki fark nedir?
   // 2. String içinde özel karakterler nasıl kullanılır?
-  // 3. Değişken isimlendirme kurallarına örnekler verebilir misiniz?
-  // 4. Bir öğrencinin adını ve yaşını saklamak için hangi veri türlerini kullanabiliriz?
-  // 5. Bir ürünün fiyatını ve stok durumunu saklamak için hangi veri türlerini kullanabiliriz?
-  // 6. Bir kişinin doğum yılını saklayıp yaşını hesaplamak için hangi veri türlerini kullanabiliriz?
+  // 3. Bir öğrencinin adını ve yaşını saklamak için hangi veri türlerini kullanabiliriz?
+  // 4. Bir ürünün fiyatını ve stok durumunu saklamak için hangi veri türlerini kullanabiliriz?
+  // 5. Bir kişinin doğum yılını saklayıp yaşını hesaplamak için hangi veri türlerini kullanabiliriz?
 }

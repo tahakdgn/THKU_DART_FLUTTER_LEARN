@@ -5,13 +5,8 @@ void main() {
   // 1. INTERPOLATION (String İçinde Değişken Kullanımı)
   // Interpolation, metin içinde değişkenlerin dinamik olarak yerleştirilmesini sağlar.
   // Dart dilinde iki şekilde string interpolation yapılabilir:
-  // 1. `$değişkenAdı` ile
-  // 2. `${ifade}` ile (örneğin, matematiksel işlemler veya metod çağrıları için)
-
-  // Değişkenleri tanımlıyoruz: (isim ve yaş değişkenleri)
 
   // Basit interpolation kullanımı:
-
   // Beklenen çıktı: Merhaba, Ali! Yaşınız: 25
 
   // Birden fazla değişken ve ifade kullanarak daha karmaşık mesajlar oluşturabiliriz:
@@ -47,7 +42,7 @@ void main() {
 
   // Listeyi yeniden ekrana yazdıralim:
 
-  // Liste içindeki elemanları güncelleyebiliriz: ilk elaemanı 10 ile güncelleyelim.
+  // Liste içindeki elemanları güncelleyebiliriz: ilk elemanı 10 ile güncelleyelim.
 
   // Listeyi yeniden ekrana yazdıralim:
 

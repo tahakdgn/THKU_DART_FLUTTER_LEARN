@@ -71,9 +71,21 @@ void main() {
   // Eşit Değildir (!=)
   print("a != b: ${a != b}"); // true, çünkü 10, 20'ye eşit değildir.
 
-  // 4. LIST VE MAP ÜZERİNDE TOPLAMA VE ÇIKARMA
-  // List ve map veri yapıları üzerinde toplama ve çıkarma işlemlerini yapalım.
+  // 4. LIST ÜZERİNDE TOPLAMA VE ÇIKARMA
+  // List  üzerinde toplama ve çıkarma işlemlerini yapalım.
 
+  List<int> list1 = [1, 2, 3];
+  List<int> list2 = [4, 5, 6];
+  List<int> list3 = [2, 4, 5, 7, 8, 9];
+
+  // Liste Toplama (Birleştirme)
+  List<int> listToplam = [...list1, ...list2]; // [1, 2, 3, 4, 5, 6]
+  print("Liste Toplama: ${list1 + list2}");
+  print("Liste Toplama: $listToplam");
+
+  // Liste Çıkarma (list3'den list2'de olanları çıkar)
+  list3.removeWhere((element) => list2.contains(element));
+  print("Liste Çıkarma: $list2");
   // 6. STRING TOPLAMA
   // İki string'i birleştirelim. (String birleştirme) beklenen çıktı: Tam İsim: Ali Yılmaz
 
