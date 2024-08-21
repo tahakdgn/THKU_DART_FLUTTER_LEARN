@@ -4,7 +4,29 @@ void main() {
   // Koşul, döngünün başında kontrol edilir ve eğer baştan yanlışsa döngü hiç çalışmaz.
 
   // Soru 1: 10'dan geriye doğru sayan bir while döngüsü yazın.
+  // int a = 10;
+  // while (a > 0) {
+  //   print(a);
+  //   a--;
+  // }
 
+  // Soru 2: 1'den 5'e kadar olan sayıları ekrana yazdıran bir while döngüsü yazın.
+  // int b = 1;
+  // while (b <= 5) {
+  //   print(b);
+  //   b++;
+  // }
+
+  //Soru 3: 1'den 100'e kadar olan sayıların toplamını bulan bir while döngüsü yazın.
+  // int c = 1;
+  // while (c <= 100) {
+  //   print(c);
+  //   c++;
+  // }
+
+
+  // Soru 4: Kullanıcıdan bir sayı alıp, bu sayı 50'den küçük olduğu sürece sayıyı iki katına çıkaran bir while döngüsü yazın. (Ornek Girdi : 10) Çıktılar : (10, 20, 40, 80)
+ 
   // 2. For Döngüsü
   // For döngüsü, belirli bir sayıda saydırma yapmak için kullanılır.
   // Sayaç başlangıç değeri, koşul ve sayaç artırma/azaltma adımı for döngüsünün başında belirtilir.
@@ -13,11 +35,19 @@ void main() {
 
   // Soru 2: 1'den 10'a kadar olan sayıların toplamını hesaplayan bir for döngüsü yazın.
 
+  // Soru 3: 1 ile 20 arasındaki çift sayıları ekrana yazdıran bir for döngüsü yazın.
+
+  //Soru 4: 10'dan geriye doğru 1'e kadar sayıları yazdıran bir for döngüsü yazın.
+
+  //Soru 5: 5'in çarpım tablosunu ekrana yazdıran bir for döngüsü yazın (örneğin 5, 10, 15, ... 50).
+
+
+
   // 3. Do-While Döngüsü
   // Do-While döngüsü, en az bir kez çalışır çünkü koşul döngünün sonunda kontrol edilir.
   // Döngü bloğu ilk kez koşul kontrol edilmeden çalıştırılır.
 
-  // Soru 3: Kullanıcıdan bir sayı alıp, bu sayıyı sıfıra indirene kadar her seferinde 1 azaltan bir do-while döngüsü yazın.
+  // Soru 1: Kullanıcıdan bir sayı alıp, bu sayıyı sıfıra indirene kadar her seferinde 1 azaltan bir do-while döngüsü yazın.
 
   // 4. Pratik Sorular ve Problemler
 
@@ -53,6 +83,4 @@ void main() {
   // List<int> karelerListesi = [];
 
   // Soru 14: 1'den 50'ye kadar olan sayıların toplamını hesaplayan bir döngü yazın.
-
-
 }
