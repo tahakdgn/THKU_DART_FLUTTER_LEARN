@@ -8,43 +8,27 @@ void main() {
   // 'parameters' (parametreler) ile tanımlanır.
 
   // Örnek: Basit bir fonksiyon tanımlama
-  // Bu fonksiyon ekrana "Merhaba, Dünya!" yazdırır ve hiçbir değer döndürmez (void).
-  void merhabaDunya() {
-    print("Merhaba, Dünya!");
-  }
+  // Fonksiyon ekrana "Merhaba, Dünya!" yazdırır ve hiçbir değer döndürmez (void).
 
   // 3. Fonksiyon Nasıl Çağrılır?
   // Tanımlanan bir fonksiyonu çalıştırmak için fonksiyonun adı ve parantezler kullanılır.
 
   // Örnek: merhabaDunya fonksiyonunu çağırma
-  merhabaDunya();
 
   // 4. Parametreli Fonksiyonlar
   // Fonksiyonlar, işlevlerini yerine getirmek için parametreler alabilir.
   // Parametreler, fonksiyonun çalışması için gerekli olan verilerdir.
 
   // Örnek: Parametreli bir fonksiyon tanımlama
-  // Bu fonksiyon, iki sayıyı toplar ve sonucu döndürür.
-  int toplamaIslemi(int sayi1, int sayi2) {
-    return sayi1 + sayi2;
-  }
-
-  // Örnek: toplamaIslemi fonksiyonunu çağırma
-  int sonuc = toplamaIslemi(5, 3);
-  print("Toplama İşlemi Sonucu: $sonuc"); // 8
+  // Iki sayıyı toplayan ve sonucu döndüren bir fonksiyon yaz.
 
   // 5. Geriye Değer Döndüren Fonksiyonlar
   // Fonksiyonlar bir değer döndürebilir. Dönen değeri fonksiyonun çağrıldığı yerde kullanabilirsiniz.
 
   // Örnek: Geriye değer döndüren bir fonksiyon tanımlama
   // Bu fonksiyon, verilen bir sayının karesini döndürür.
-  int kareAl(int sayi) {
-    return sayi * sayi;
-  }
 
   // Örnek: kareAl fonksiyonunu çağırma
-  int kareSonuc = kareAl(4);
-  print("Kare Sonucu: $kareSonuc"); // 16
 
   // 6. Opsiyonel Parametreler
   // Dart'ta opsiyonel parametreler kullanabilirsiniz. Bu parametreler verilmezse
@@ -52,50 +36,27 @@ void main() {
 
   // Örnek: Opsiyonel parametreli fonksiyon tanımlama
   // Bu fonksiyon, bir kişinin adını ve isteğe bağlı olarak yaşını yazdırır.
-  void kisiBilgisi(String isim, [int yas = 0]) {
-    print("İsim: $isim, Yaş: $yas");
-  }
 
   // Örnek: kisiBilgisi fonksiyonunu çağırma
-  kisiBilgisi("Ali"); // İsim: Ali, Yaş: 0
-  kisiBilgisi("Ayşe", 25); // İsim: Ayşe, Yaş: 25
+  // İsim: Ali, Yaş: 0
+  // İsim: Ayşe, Yaş: 25
 
-  // 7. Fonksiyon İçinde Fonksiyon Çağırma
-  // Bir fonksiyon, başka bir fonksiyonun içinde çağrılabilir.
-
-  // Örnek: Fonksiyon içinde fonksiyon çağırma
-  void gosterKare(int sayi) {
-    int kare = kareAl(sayi); // kareAl fonksiyonu burada çağrılıyor
-    print("Sayı: $sayi, Karesi: $kare");
-  }
-
-  // Örnek: gosterKare fonksiyonunu çağırma
-  gosterKare(6); // Sayı: 6, Karesi: 36
-
-  // 8. Anonim Fonksiyonlar (Lambda Fonksiyonlar)
+  // 7. Anonim Fonksiyonlar (Lambda Fonksiyonlar)
   // Dart'ta fonksiyonları isimsiz olarak da tanımlayabilirsiniz.
 
   // Örnek: Anonim bir fonksiyon tanımlama ve kullanma
-  var anonimFonksiyon = (int a, int b) {
-    return a + b;
-  };
+  // var anonimFonksiyon = (int a, int b) {
+  //   return a + b;
+  // };
 
   // Örnek: Anonim fonksiyonun çağrılması
-  int anonimSonuc = anonimFonksiyon(7, 8);
-  print("Anonim Fonksiyon Sonucu: $anonimSonuc"); // 15
+  // int anonimSonuc = anonimFonksiyon(7, 8);
+  // print("Anonim Fonksiyon Sonucu: $anonimSonuc"); // 15
 
-  // 9. Fonksiyonların Gerçek Kullanımı
+  // 8. Fonksiyonların Gerçek Kullanımı
   // Fonksiyonlar, kodunuzu modüler hale getirerek, birden fazla yerde aynı kodu tekrar tekrar yazmaktan kaçınmanızı sağlar.
 
-  // Örnek: Birden fazla yerde kullanılan bir fonksiyon
-  void selamla(String isim) {
-    print("Merhaba, $isim!");
-  }
-
-  // selamla fonksiyonunu farklı yerlerde kullanma
-  selamla("Taha");
-  selamla("Onur");
-  selamla("Mehmet");
+  //9 Arrow Function
 
   // Uygulamalı Sorular ve Problemler
 
